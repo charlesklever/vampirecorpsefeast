@@ -8679,8 +8679,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "d5f15a04-ee39-4c40-90a8-1a4aac11e94f",
-            "x": 312.5,
-            "y": 647,
+            "x": 297.5,
+            "y": 709,
             "actors": [],
             "triggers": []
         },
@@ -10091,7 +10091,23 @@
                 {
                     "name": "",
                     "trigger": "walk",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "5ae31e73-e137-4ff4-bacd-6bc0da60e029",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "6eeb81a8-4a6a-4407-a183-d7cadab324d4",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "5df1cd8e-6598-4cba-a29d-0f19c9300971",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "id": "516981ac-7ab5-48fd-b407-5f0c0d1e6e0c",
                     "x": 14,
                     "y": 18,
@@ -10133,87 +10149,72 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "473adf92-1cbd-4a70-ad6c-b6997f98aed8",
-                            "command": "EVENT_ACTOR_EMOTE",
+                            "id": "f2b4a44e-c458-436b-9333-0f3ccb32ca60",
+                            "command": "EVENT_IF_VALUE",
                             "args": {
-                                "actorId": "$self$",
-                                "emoteId": 0
-                            }
-                        },
-                        {
-                            "id": "e6815188-8a7f-4564-951f-51c6be0d0803",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "17",
-                                "__collapseElse": false,
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "59f89eb7-2183-4ac4-9fa6-cf223ceb0910",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "You see that the\nmirror is a poor",
-                                                "excuse for a door.\nIt doesn't really\nfool you.",
-                                                "You stroll right\non through."
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "b179d58b-210f-4e49-b7ff-345f0180fdbe",
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "d3e5e458-ef2c-4075-a07e-c7bd43b62119",
-                                            "x": 4,
-                                            "y": 3,
-                                            "direction": "down",
-                                            "fadeSpeed": "2"
-                                        }
-                                    },
-                                    {
-                                        "id": "cc8e7fa6-3b23-4118-9af7-3efcc072825a",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "e7e644ec-d33d-47c6-a1b5-878b234a9c0c",
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "d3e5e458-ef2c-4075-a07e-c7bd43b62119",
-                                            "x": 4,
-                                            "y": 3,
-                                            "direction": "down",
-                                            "fadeSpeed": "2"
-                                        }
-                                    },
-                                    {
-                                        "id": "8c3328f1-5ab1-4ffe-a3b2-b72912028660",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "8b6adecb-7940-4a2f-a5d6-ff7979b41917",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "17",
+                                "variable": "L0",
+                                "operator": "<=",
+                                "comparator": 0,
                                 "__collapseElse": false
                             },
                             "children": {
                                 "true": [
                                     {
-                                        "id": "e8d92d9a-eed9-4558-8dbc-068484f57567",
+                                        "id": "4ba4b480-0f06-4701-b273-ed30a25cb98e",
+                                        "command": "EVENT_INC_VALUE",
+                                        "args": {
+                                            "variable": "L0"
+                                        }
+                                    },
+                                    {
+                                        "id": "473adf92-1cbd-4a70-ad6c-b6997f98aed8",
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "ab1e50c9-d9ef-439b-a92a-b28a0892183b",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "You notice that\nthe mirror is just\na really good",
+                                                "mirror that covers\nthe doorway. You\nmake your way in."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "4c664c7c-f2fc-4c3d-9690-7cbbaf43821c",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "d3e5e458-ef2c-4075-a07e-c7bd43b62119",
+                                            "x": 4,
+                                            "y": 3,
+                                            "direction": "down",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "140c45b6-f366-4d36-b272-8b25d499f941",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "id": "3e15a669-6aa3-46e5-b7d7-85f88eee1f97",
+                                        "id": "f85c0f94-25b0-444e-a6d1-88b997ff4f8a",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "d3e5e458-ef2c-4075-a07e-c7bd43b62119",
+                                            "x": 4,
+                                            "y": 3,
+                                            "direction": "down",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "8da2f203-ed35-4ee0-9fb2-693906d54c01",
                                         "command": "EVENT_END"
                                     }
                                 ]
@@ -10605,8 +10606,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "d3e5e458-ef2c-4075-a07e-c7bd43b62119",
-            "x": 563.5,
-            "y": 506.5,
+            "x": 757.5,
+            "y": 433.5,
             "actors": [],
             "triggers": [
                 {
@@ -11010,8 +11011,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "5e7f02d6-34b0-4ffa-801e-387681c26006",
-            "x": 796,
-            "y": 471,
+            "x": 531,
+            "y": 432,
             "actors": [],
             "triggers": []
         },
@@ -14643,9 +14644,9 @@
         "startY": 11,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 338,
-        "worldScrollY": 1,
-        "zoom": 200,
+        "worldScrollX": 0,
+        "worldScrollY": 107,
+        "zoom": 100,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
