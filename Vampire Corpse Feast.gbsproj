@@ -9535,8 +9535,8 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "As you say hello,\nhe acknowledges\nyour presence...",
-                                    "with a heavy sigh."
+                                    "As you say hello,\nhe acknowledges\n",
+                                    "your presence\nwith a heavy sigh."
                                 ],
                                 "avatarId": ""
                             }
@@ -9546,7 +9546,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "“Are you like\nButler 15 or\nsomething?",
+                                    "“Aren't you like\nButler 15 or\nsomething?",
                                     "This family is\nsuch a drag…”"
                                 ],
                                 "avatarId": ""
@@ -9568,7 +9568,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "\"All she listens\nto\nis Tchaikosky",
+                                    "\"All she listens\nto is Tchaikosky",
                                     "since they went to\nschool together… ",
                                     "That old stuff is\na snooze fest.”"
                                 ],
@@ -9589,7 +9589,8 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "L0",
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -9709,7 +9710,8 @@
                                                 "You push the\nthought aside so\nthat you can",
                                                 "continue helping\nthe rest of the\nhouse."
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "",
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -9880,23 +9882,12 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "0856806d-86fe-4cf7-ad73-6d4c3ce77da8",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "down"
-                                            }
-                                        }
-                                    },
-                                    {
                                         "id": "cdeab21b-8b84-4fe0-861d-f6d21de5be71",
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "8c57986f-4223-4da4-90d3-f8cedd711cf6",
                                             "x": 6,
-                                            "y": 7,
+                                            "y": 8,
                                             "direction": "down",
                                             "fadeSpeed": "2"
                                         }
@@ -9913,7 +9904,7 @@
                                         "args": {
                                             "sceneId": "8c57986f-4223-4da4-90d3-f8cedd711cf6",
                                             "x": 6,
-                                            "y": 7,
+                                            "y": 8,
                                             "direction": "down",
                                             "fadeSpeed": "2",
                                             "__collapse": false
@@ -14136,7 +14127,7 @@
                                         "args": {
                                             "sceneId": "ea83627f-d1e1-4b94-aad1-c60feee8d263",
                                             "x": 13,
-                                            "y": 18,
+                                            "y": 17,
                                             "direction": "up",
                                             "fadeSpeed": "2"
                                         }
@@ -14153,7 +14144,7 @@
                                         "args": {
                                             "sceneId": "ea83627f-d1e1-4b94-aad1-c60feee8d263",
                                             "x": 13,
-                                            "y": 18,
+                                            "y": 17,
                                             "direction": "up",
                                             "fadeSpeed": "2"
                                         }
@@ -14284,8 +14275,8 @@
             "imageWidth": 160,
             "imageHeight": 208,
             "filename": "angstyteen.png",
-            "inode": "1407374884550601",
-            "_v": 1638662065651
+            "inode": "2533274790915445",
+            "_v": 1638663606308
         },
         {
             "id": "5606d332-4233-49c8-b360-0fcdcd979968",
@@ -14295,8 +14286,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "basement.png",
-            "inode": "1407374884550602",
-            "_v": 1638662065651
+            "inode": "2814749767626102",
+            "_v": 1638663606308
         },
         {
             "id": "1da35172-aea4-40b4-8215-7992d9245b34",
@@ -14306,8 +14297,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "black.png",
-            "inode": "1407374884550603",
-            "_v": 1638662065651
+            "inode": "562949954096536",
+            "_v": 1638663606308
         },
         {
             "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
@@ -14317,8 +14308,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "inode": "1407374884550604",
-            "_v": 1638662065651
+            "inode": "2533274790915448",
+            "_v": 1638663606308
         },
         {
             "id": "9b957635-de14-4d2c-b98c-d71071b1437e",
@@ -14328,8 +14319,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "gameover.png",
-            "inode": "1407374884550605",
-            "_v": 1638662065651
+            "inode": "2251799814204794",
+            "_v": 1638663606308
         },
         {
             "id": "7f6caa22-3ea4-47c3-a9e6-50d5e5815534",
@@ -14339,8 +14330,8 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "garden.png",
-            "inode": "1407374884550606",
-            "_v": 1638662065651
+            "inode": "2533274790915449",
+            "_v": 1638663606308
         },
         {
             "id": "8bcd1407-8a6f-4bd7-9fde-459e4fa3939a",
@@ -14350,8 +14341,8 @@
             "imageWidth": 224,
             "imageHeight": 144,
             "filename": "hallway.png",
-            "inode": "1407374884550607",
-            "_v": 1638662065651
+            "inode": "2251799814204796",
+            "_v": 1638663606308
         },
         {
             "id": "481e920a-10b8-4d5b-b6a2-dffa96b57bf0",
@@ -14361,8 +14352,8 @@
             "imageWidth": 256,
             "imageHeight": 144,
             "filename": "hidden_cave.png",
-            "inode": "1407374884550608",
-            "_v": 1638662065651
+            "inode": "2533274790915451",
+            "_v": 1638663606308
         },
         {
             "id": "5b192b93-3957-4b76-8c92-423eabbcd285",
@@ -14372,8 +14363,8 @@
             "imageWidth": 256,
             "imageHeight": 144,
             "filename": "house-wide.png",
-            "inode": "1407374884550609",
-            "_v": 1638662065651
+            "inode": "2533274790915455",
+            "_v": 1638663606308
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -14383,8 +14374,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "inode": "1407374884550610",
-            "_v": 1638662065651
+            "inode": "2533274790915458",
+            "_v": 1638663606308
         },
         {
             "id": "00e9b250-b602-4e5d-998c-fe0c8f23c91d",
@@ -14394,8 +14385,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "launch_site.png",
-            "inode": "1407374884550611",
-            "_v": 1638662065651
+            "inode": "2533274790915459",
+            "_v": 1638663606308
         },
         {
             "id": "28a8b376-b6c5-4e6d-8d7d-2a409d73cd1b",
@@ -14405,8 +14396,8 @@
             "imageWidth": 2040,
             "imageHeight": 144,
             "filename": "leaving_earth.png",
-            "inode": "1407374884550612",
-            "_v": 1638662065651
+            "inode": "2533274790915460",
+            "_v": 1638663606308
         },
         {
             "id": "32b66da7-46fe-410a-90a0-583f00c47c60",
@@ -14416,8 +14407,8 @@
             "imageWidth": 160,
             "imageHeight": 256,
             "filename": "letter.png",
-            "inode": "1407374884550613",
-            "_v": 1638662065651
+            "inode": "2251799814204797",
+            "_v": 1638663606308
         },
         {
             "id": "a7b88281-4130-4acd-b67f-a2c0ce1f700f",
@@ -14427,8 +14418,8 @@
             "imageWidth": 160,
             "imageHeight": 256,
             "filename": "lobby.png",
-            "inode": "1407374884550614",
-            "_v": 1638662065651
+            "inode": "2533274790915454",
+            "_v": 1638663606308
         },
         {
             "id": "b49ea566-b022-478c-979d-ec3ee255fdc5",
@@ -14438,8 +14429,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "menu.png",
-            "inode": "1407374884550615",
-            "_v": 1638662065651
+            "inode": "2533274790915461",
+            "_v": 1638663606308
         },
         {
             "id": "93d8839f-c19c-4eb2-a386-b0bb77068521",
@@ -14449,8 +14440,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "menu_page1.png",
-            "inode": "1407374884550616",
-            "_v": 1638662065651
+            "inode": "2533274790915462",
+            "_v": 1638663606308
         },
         {
             "id": "816231e1-2147-462c-99c6-3f73e8535d25",
@@ -14460,8 +14451,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "menu_page2.png",
-            "inode": "1407374884550617",
-            "_v": 1638662065651
+            "inode": "2533274790915463",
+            "_v": 1638663606308
         },
         {
             "id": "07016701-d5df-4983-8a5a-3930c7f45822",
@@ -14471,8 +14462,8 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "inode": "1407374884550618",
-            "_v": 1638662065651
+            "inode": "2533274790915464",
+            "_v": 1638663606308
         },
         {
             "id": "b50cefc6-72dc-44c0-947d-f5d4d533a97a",
@@ -14482,8 +14473,8 @@
             "imageWidth": 1288,
             "imageHeight": 144,
             "filename": "platform_path.png",
-            "inode": "1407374884550619",
-            "_v": 1638662065651
+            "inode": "2533274790915465",
+            "_v": 1638663606308
         },
         {
             "id": "0af9ba31-7864-4664-9603-b211dc0f3793",
@@ -14493,8 +14484,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "room.png",
-            "inode": "1407374884550620",
-            "_v": 1638662065651
+            "inode": "2533274790915466",
+            "_v": 1638663606308
         },
         {
             "id": "053f83aa-a4e3-413b-98af-1bb0d0818ddc",
@@ -14504,8 +14495,8 @@
             "imageWidth": 448,
             "imageHeight": 448,
             "filename": "sample_town.png",
-            "inode": "1407374884550621",
-            "_v": 1638662065651
+            "inode": "2533274790915469",
+            "_v": 1638663606308
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -14515,8 +14506,8 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "inode": "1407374884550622",
-            "_v": 1638662065651
+            "inode": "2533274790915470",
+            "_v": 1638663606308
         },
         {
             "id": "33ae580b-d809-4804-a558-71c08a3ac495",
@@ -14526,8 +14517,8 @@
             "imageWidth": 2040,
             "imageHeight": 144,
             "filename": "stars_wide.png",
-            "inode": "1407374884550623",
-            "_v": 1638662065651
+            "inode": "2533274790915471",
+            "_v": 1638663606308
         },
         {
             "id": "563d2af5-a95f-49cc-8edb-2fd8d6d1b371",
@@ -14537,8 +14528,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "study.png",
-            "inode": "1407374884550624",
-            "_v": 1638662065651
+            "inode": "2533274790915456",
+            "_v": 1638663606308
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -14548,8 +14539,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "inode": "1407374884550625",
-            "_v": 1638662065651
+            "inode": "2533274790915472",
+            "_v": 1638663606308
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -14559,8 +14550,8 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "inode": "1407374884550626",
-            "_v": 1638662065651
+            "inode": "2814749767626138",
+            "_v": 1638663606308
         },
         {
             "id": "134dfc49-d56e-44ed-b292-a3eb31d048d9",
@@ -14570,8 +14561,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "vampire_title_logo.png",
-            "inode": "1407374884550637",
-            "_v": 1638662065651
+            "inode": "2251799814204801",
+            "_v": 1638663606308
         }
     ],
     "spriteSheets": [
@@ -14581,8 +14572,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "box.png",
-            "inode": "2814749768128846",
-            "_v": 1638662065651
+            "inode": "1688849860783562",
+            "_v": 1638663606308
         },
         {
             "id": "ec0f660e-c420-43ee-9d1e-6d8e9f320213",
@@ -14590,8 +14581,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "bullet.png",
-            "inode": "2814749768128847",
-            "_v": 1638662065651
+            "inode": "2533274790915515",
+            "_v": 1638663606308
         },
         {
             "id": "32c48a4d-6ce6-4aca-a23a-a6300b5c9e3b",
@@ -14599,8 +14590,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "bullet_left.png",
-            "inode": "2814749768128850",
-            "_v": 1638662065651
+            "inode": "2533274790915516",
+            "_v": 1638663606308
         },
         {
             "id": "450a3571-cc76-41be-8c95-818d60b83c59",
@@ -14608,8 +14599,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "bullet_right.png",
-            "inode": "2814749768128851",
-            "_v": 1638662065651
+            "inode": "2251799814204862",
+            "_v": 1638663606308
         },
         {
             "id": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
@@ -14617,17 +14608,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "inode": "2814749768128856",
-            "_v": 1638662065651
-        },
-        {
-            "id": "66597e8f-46f9-4183-8710-a08232f2d682",
-            "name": "cdplayer",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "cdplayer.png",
-            "inode": "2814749768128858",
-            "_v": 1638662065651
+            "inode": "562949954096571",
+            "_v": 1638663606308
         },
         {
             "id": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
@@ -14635,8 +14617,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "checkbox.png",
-            "inode": "2814749768128860",
-            "_v": 1638662065651
+            "inode": "2251799814204863",
+            "_v": 1638663606308
         },
         {
             "id": "d4206af4-4d12-4cfd-a4a8-faa11d4aff34",
@@ -14644,8 +14626,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "chest.png",
-            "inode": "2814749768128862",
-            "_v": 1638662065651
+            "inode": "562949954096573",
+            "_v": 1638663606308
         },
         {
             "id": "7ff7a1e5-f947-415e-b7ea-bc3f24fd09ba",
@@ -14653,8 +14635,8 @@
             "numFrames": 0.5,
             "type": "animated",
             "filename": "clever8x8.png",
-            "inode": "2814749768128868",
-            "_v": 1638662065651
+            "inode": "2251799814204864",
+            "_v": 1638663606308
         },
         {
             "id": "b3dcc99a-250d-42ab-b583-a81b48ffb678",
@@ -14662,8 +14644,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cleversolution.png",
-            "inode": "2814749768128872",
-            "_v": 1638662065651
+            "inode": "2251799814204865",
+            "_v": 1638663606308
         },
         {
             "id": "722f4b7e-497a-4657-a2cb-e750601d8de9",
@@ -14671,8 +14653,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "coffin1.png",
-            "inode": "2814749768128875",
-            "_v": 1638662065651
+            "inode": "1688849860783571",
+            "_v": 1638663606308
         },
         {
             "id": "ac2079a7-b24e-479a-a64f-15640ea8167d",
@@ -14680,8 +14662,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "coffin2.png",
-            "inode": "2814749768128880",
-            "_v": 1638662065651
+            "inode": "1688849860783572",
+            "_v": 1638663606308
         },
         {
             "id": "a827b612-578f-4cb9-a2bf-fd54b197b83f",
@@ -14689,8 +14671,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "cursor.png",
-            "inode": "2814749768128882",
-            "_v": 1638662065651
+            "inode": "2251799814204866",
+            "_v": 1638663606308
         },
         {
             "id": "543791ab-0f09-4097-93c9-6528c5526862",
@@ -14698,8 +14680,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "dad_vampire.png",
-            "inode": "2814749768128897",
-            "_v": 1638662065651
+            "inode": "1688849860783573",
+            "_v": 1638663606308
         },
         {
             "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
@@ -14707,8 +14689,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "inode": "2814749768128900",
-            "_v": 1638662065651
+            "inode": "562949954096575",
+            "_v": 1638663606309
         },
         {
             "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -14716,8 +14698,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "duck.png",
-            "inode": "2814749768128901",
-            "_v": 1638662065651
+            "inode": "2251799814204867",
+            "_v": 1638663606309
         },
         {
             "id": "954ffda3-81b7-40ea-a338-3b11ad4b75fb",
@@ -14725,8 +14707,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "enemy_ship.png",
-            "inode": "2814749768128902",
-            "_v": 1638662065651
+            "inode": "2533274790915533",
+            "_v": 1638663606309
         },
         {
             "id": "493bdd1e-7e97-4911-b89a-c0677dfdcaaa",
@@ -14734,8 +14716,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "explode.png",
-            "inode": "2814749768128903",
-            "_v": 1638662065651
+            "inode": "1970324837494223",
+            "_v": 1638663606309
         },
         {
             "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
@@ -14743,17 +14725,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "inode": "2814749768128905",
-            "_v": 1638662065651
-        },
-        {
-            "id": "21da6f2d-dbae-4f26-8738-36e76a85f0eb",
-            "name": "greensteak",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "greensteak.png",
-            "inode": "2814749768128907",
-            "_v": 1638662065651
+            "inode": "562949954096579",
+            "_v": 1638663606309
         },
         {
             "id": "418d0dce-7f4d-497e-b7b3-bd548dcfda2c",
@@ -14761,8 +14734,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "hammer.png",
-            "inode": "2814749768128910",
-            "_v": 1638662065651
+            "inode": "1688849860783575",
+            "_v": 1638663606309
         },
         {
             "id": "81b14fe6-2235-480e-bc3b-a5899aa66afe",
@@ -14770,8 +14743,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "hidden_stairs.png",
-            "inode": "2814749768128915",
-            "_v": 1638662065651
+            "inode": "562949954096580",
+            "_v": 1638663606309
         },
         {
             "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
@@ -14779,8 +14752,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ice.png",
-            "inode": "2814749768128916",
-            "_v": 1638662065651
+            "inode": "1970324837494224",
+            "_v": 1638663606309
         },
         {
             "id": "f23e2c4c-b16e-4313-bccc-4f9aad56a02d",
@@ -14788,8 +14761,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "kid_vampire.png",
-            "inode": "2814749768128919",
-            "_v": 1638662065651
+            "inode": "1688849860783576",
+            "_v": 1638663606309
         },
         {
             "id": "8cb9c002-1abc-458c-9588-9b55af8efb08",
@@ -14797,8 +14770,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "machine.png",
-            "inode": "2814749768128930",
-            "_v": 1638662065651
+            "inode": "1970324837494225",
+            "_v": 1638663606309
         },
         {
             "id": "fd961378-5ad2-4836-8d12-9b1277d78cf1",
@@ -14806,8 +14779,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "mom_vampire.png",
-            "inode": "2814749768128932",
-            "_v": 1638662065651
+            "inode": "1688849860783577",
+            "_v": 1638663606309
         },
         {
             "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -14815,8 +14788,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "inode": "2814749768128935",
-            "_v": 1638662065651
+            "inode": "562949954096583",
+            "_v": 1638663606309
         },
         {
             "id": "40dcd163-9f72-4861-8131-b01eb9baa000",
@@ -14824,8 +14797,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "inode": "2814749768128938",
-            "_v": 1638662065651
+            "inode": "562949954096584",
+            "_v": 1638663606309
         },
         {
             "id": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -14833,8 +14806,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "inode": "3096224744839596",
-            "_v": 1638662065651
+            "inode": "562949954096585",
+            "_v": 1638663606309
         },
         {
             "id": "46a3db76-878e-4896-892b-d1afa7d5e2f0",
@@ -14842,8 +14815,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc004.png",
-            "inode": "2814749768128951",
-            "_v": 1638662065651
+            "inode": "562949954096586",
+            "_v": 1638663606309
         },
         {
             "id": "7a27b229-5f3d-4eaa-b20c-07997673324d",
@@ -14851,8 +14824,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc005.png",
-            "inode": "2814749768128952",
-            "_v": 1638662065651
+            "inode": "562949954096587",
+            "_v": 1638663606309
         },
         {
             "id": "c475c713-9fd8-455a-b9bc-8c62b2b8fd5e",
@@ -14860,8 +14833,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc006.png",
-            "inode": "2814749768128960",
-            "_v": 1638662065651
+            "inode": "562949954096588",
+            "_v": 1638663606309
         },
         {
             "id": "2b18f935-85a3-4f38-9f52-e5c4ea20776a",
@@ -14869,8 +14842,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc007.png",
-            "inode": "2814749768128964",
-            "_v": 1638662065651
+            "inode": "1970324837494226",
+            "_v": 1638663606309
         },
         {
             "id": "7573e209-6fd6-4e39-bad5-2a6512a9f1b4",
@@ -14878,8 +14851,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "openbox.png",
-            "inode": "2814749768128965",
-            "_v": 1638662065651
+            "inode": "1688849860783578",
+            "_v": 1638663606309
         },
         {
             "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
@@ -14887,8 +14860,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "inode": "2814749768128966",
-            "_v": 1638662065651
+            "inode": "562949954096590",
+            "_v": 1638663606309
         },
         {
             "id": "2f2d492c-dba2-434c-93c9-d1301e88d5e9",
@@ -14896,8 +14869,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player_ship.png",
-            "inode": "2814749768128981",
-            "_v": 1638662065651
+            "inode": "562949954096591",
+            "_v": 1638663606309
         },
         {
             "id": "563a37e3-252b-49a3-84e3-d687f195649e",
@@ -14905,8 +14878,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player_sprite.png",
-            "inode": "2814749768128985",
-            "_v": 1638662065651
+            "inode": "1688849860783581",
+            "_v": 1638663606309
         },
         {
             "id": "058c0142-0c1e-4762-b5ac-e085d84fc734",
@@ -14914,8 +14887,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "pod_door.png",
-            "inode": "2814749768128988",
-            "_v": 1638662065651
+            "inode": "562949954096592",
+            "_v": 1638663606309
         },
         {
             "id": "94eb6557-0cfc-453e-8e1f-ddb191ac8536",
@@ -14923,8 +14896,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "portal.png",
-            "inode": "2814749768128993",
-            "_v": 1638662065651
+            "inode": "562949954096593",
+            "_v": 1638663606309
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -14932,8 +14905,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "inode": "2814749768128994",
-            "_v": 1638662065651
+            "inode": "1970324837494230",
+            "_v": 1638663606309
         },
         {
             "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
@@ -14941,8 +14914,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "rock.png",
-            "inode": "2814749768128998",
-            "_v": 1638662065651
+            "inode": "1970324837494235",
+            "_v": 1638663606309
         },
         {
             "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
@@ -14950,8 +14923,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sage.png",
-            "inode": "2814749768128999",
-            "_v": 1638662065651
+            "inode": "1970324837494236",
+            "_v": 1638663606309
         },
         {
             "id": "000a6dde-cb60-436e-b357-30a529daa139",
@@ -14959,8 +14932,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "savepoint.png",
-            "inode": "2814749768129001",
-            "_v": 1638662065651
+            "inode": "562949954096597",
+            "_v": 1638663606309
         },
         {
             "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -14968,8 +14941,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "inode": "2814749768129005",
-            "_v": 1638662065651
+            "inode": "1970324837494238",
+            "_v": 1638663606309
         },
         {
             "id": "b4845aec-11e3-475b-8a9a-0a01b920c710",
@@ -14977,8 +14950,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "space_mine.png",
-            "inode": "2814749768129007",
-            "_v": 1638662065651
+            "inode": "1970324837494241",
+            "_v": 1638663606309
         },
         {
             "id": "adcb0257-1f00-4cc4-be20-e9eb513d0ddb",
@@ -14986,8 +14959,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "teen_vampire.png",
-            "inode": "2814749768129009",
-            "_v": 1638662065651
+            "inode": "1688849860783583",
+            "_v": 1638663606309
         },
         {
             "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
@@ -14995,8 +14968,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "torch.png",
-            "inode": "2814749768129011",
-            "_v": 1638662065651
+            "inode": "562949954096600",
+            "_v": 1638663606309
         },
         {
             "id": "f88eea80-c5b4-4e10-b49f-7a8aa8bd477e",
@@ -15004,8 +14977,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "turnip.png",
-            "inode": "2814749768129012",
-            "_v": 1638662065651
+            "inode": "1970324837494242",
+            "_v": 1638663606309
         },
         {
             "id": "6f1e5757-a472-4531-8a65-aee22751e917",
@@ -15013,8 +14986,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "turnip_squash.png",
-            "inode": "2814749768129015",
-            "_v": 1638662065651
+            "inode": "1970324837494243",
+            "_v": 1638663606309
         },
         {
             "id": "735c26e5-eee4-43ad-a668-a2ab93f84bd8",
@@ -15022,8 +14995,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ui_weapon.png",
-            "inode": "2814749768129016",
-            "_v": 1638662065651
+            "inode": "1970324837494246",
+            "_v": 1638663606309
         },
         {
             "id": "c86420d7-fb11-45d7-825f-227c3ca3ff9e",
@@ -15031,8 +15004,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "unclevampire.png",
-            "inode": "2814749768129017",
-            "_v": 1638662065651
+            "inode": "1688849860783584",
+            "_v": 1638663606309
         }
     ],
     "palettes": [
@@ -16098,88 +16071,88 @@
             "name": "Rulz_BattleTheme",
             "filename": "Rulz_BattleTheme.mod",
             "settings": {},
-            "inode": "3659174698260593",
-            "_v": 1638662065651
+            "inode": "562949954096556",
+            "_v": 1638663606298
         },
         {
             "id": "4653812c-82b6-44ce-93b8-eea1d4b6fa71",
             "name": "Rulz_FastPaceSpeedRace",
             "filename": "Rulz_FastPaceSpeedRace.mod",
             "settings": {},
-            "inode": "4222124651681989",
-            "_v": 1638662065651
+            "inode": "562949954096557",
+            "_v": 1638663606298
         },
         {
             "id": "e571be0d-bbaa-44ae-a411-c2b2e6c5ff24",
             "name": "Rulz_GonaSpace",
             "filename": "Rulz_GonaSpace.mod",
             "settings": {},
-            "inode": "2814749768128715",
-            "_v": 1638662065651
+            "inode": "562949954096558",
+            "_v": 1638663606298
         },
         {
             "id": "2e3e140a-ae8d-4970-8e8b-37b2119c7208",
             "name": "Rulz_Into the woods",
             "filename": "Rulz_Into the woods.mod",
             "settings": {},
-            "inode": "3940649674971378",
-            "_v": 1638662065651
+            "inode": "562949954096559",
+            "_v": 1638663606298
         },
         {
             "id": "83b79b0b-6af5-4a01-ac40-2f86fd36ece8",
             "name": "Rulz_Intro",
             "filename": "Rulz_Intro.mod",
             "settings": {},
-            "inode": "2814749768128822",
-            "_v": 1638662065651
+            "inode": "562949954096560",
+            "_v": 1638663606298
         },
         {
             "id": "0f78c331-7318-48ca-8a6c-a57c15ef423a",
             "name": "Rulz_LightMood",
             "filename": "Rulz_LightMood.mod",
             "settings": {},
-            "inode": "2814749768128827",
-            "_v": 1638662065651
+            "inode": "562949954096561",
+            "_v": 1638663606298
         },
         {
             "id": "180f6b13-2ccc-4af9-8ebf-3e3931f2e824",
             "name": "Rulz_Outside",
             "filename": "Rulz_Outside.mod",
             "settings": {},
-            "inode": "2814749768128831",
-            "_v": 1638662065651
+            "inode": "562949954096562",
+            "_v": 1638663606298
         },
         {
             "id": "a98fc4b6-810e-4fb7-93ee-ef17be6ce95a",
             "name": "Rulz_Pause_Underground",
             "filename": "Rulz_Pause_Underground.mod",
             "settings": {},
-            "inode": "2814749768128833",
-            "_v": 1638662065651
+            "inode": "562949954096563",
+            "_v": 1638663606298
         },
         {
             "id": "be5e3dd0-dc4f-46b3-aefe-9897de0775c3",
             "name": "Rulz_SpaceEmergency",
             "filename": "Rulz_SpaceEmergency.mod",
             "settings": {},
-            "inode": "2814749768128834",
-            "_v": 1638662065651
+            "inode": "562949954096564",
+            "_v": 1638663606298
         },
         {
             "id": "4f7446cc-f5b4-4749-8fd0-f587afe35747",
             "name": "Rulz_UndergroundCave",
             "filename": "Rulz_UndergroundCave.mod",
             "settings": {},
-            "inode": "2814749768128837",
-            "_v": 1638662065651
+            "inode": "562949954096565",
+            "_v": 1638663606298
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "2814749768128840",
-            "_v": 1638662065651
+            "inode": "2533274790915501",
+            "_v": 1638663606298
         }
     ],
     "variables": [
@@ -16302,9 +16275,9 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 52,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollX": 115,
+        "worldScrollY": 927,
+        "zoom": 250,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
