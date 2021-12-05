@@ -1,6 +1,6 @@
 {
     "name": "Vampire Corpse Feast",
-    "author": "chazd",
+    "author": "Lily-Chad Productions",
     "_version": "2.0.0",
     "_release": "3",
     "scenes": [
@@ -9519,73 +9519,200 @@
                     "animSpeed": "3",
                     "script": [
                         {
-                            "id": "bc4a17d9-d00a-4aee-9eed-be06349d1a31",
-                            "command": "EVENT_TEXT",
+                            "id": "6ad9bd21-b3d8-4c3e-8d2f-655551c2318a",
+                            "command": "EVENT_IF_TRUE",
                             "args": {
-                                "text": [
-                                    "You swear you saw\nhim hanging with\nthe goth kids",
-                                    "in the South Park\nepisode that aired\nlast night."
+                                "variable": "20",
+                                "__collapseElse": true,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "cc9f6c7f-558a-4c45-8c65-2407171c657b",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "'What do you\nwant...? ",
+                                                "Wait, is that\n  what I think\n   it is?'"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "a9d95adc-0c6a-49ee-8d30-0144705f4245",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "“MY LOVELESS CD~!!\nI was worried it\nwas gone forever."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "1665ba7f-6e65-4413-a736-b03daf78d4ea",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "You’d imagine that\nthe kids eyes\nwould be lighting",
+                                                "up if there was\nany sign of life\nbehind them."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "8d6561f6-1714-4cc1-a27e-74971ed5cf1f",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "“You’re no longer\nButler 13,\" he\nsays... \"You're ",
+                                                "now Wicked\nButler.\" \nSilas pops the cd ",
+                                                "into a handheld cd\nplayer, it looks\nas if it's older",
+                                                "than you. \n\n\"I'll head up to",
+                                                "dinner now.\"\n"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "51ed4f35-d877-41ec-a824-8cc0989b1d5e",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "As he walks away\nyou hear him\nthinking outloud",
+                                                "I wonder if we'll\nbe having number\n12...?",
+                                                "Hopefully that's a\ncombo 12 and not\nthe alternative...",
+                                                "You push the\nthought aside so\nthat you can",
+                                                "continue helping\nthe rest of the\nhouse."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "e5bd55e3-6831-4e9e-a163-8377a5d900af",
+                                        "command": "EVENT_FADE_OUT",
+                                        "args": {
+                                            "speed": "2",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "633170ba-5dd8-46f6-87f1-efb04f7a9c1c",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "749385a3-47f6-4684-a4e8-3a58d19dadda"
+                                        }
+                                    },
+                                    {
+                                        "id": "bdd05b0a-6025-4114-a6b9-abef71024b77",
+                                        "command": "EVENT_FADE_IN",
+                                        "args": {
+                                            "speed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "b7848156-5cb9-4bdb-a1a1-3529c0f1f78c",
+                                        "command": "EVENT_END"
+                                    }
                                 ],
-                                "avatarId": "",
-                                "__collapse": false
+                                "false": [
+                                    {
+                                        "id": "8872c9a9-785f-4e46-9d2d-456b03212c03",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
-                            "id": "2a925c73-b2c0-463d-946b-5cf2886559a4",
-                            "command": "EVENT_TEXT",
+                            "id": "15637dfc-2435-47ee-80f7-77588b5a0e4f",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
-                                "text": [
-                                    "As you say hello,\nhe acknowledges\nyour presence",
-                                    "with a heavy sigh.\n 'Aren't you like\n   Butler 15 or",
-                                    "something? This\n family is such\n   a drag…"
+                                "variable": "20",
+                                "__collapseElse": false,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "d6b67711-4a2f-4771-afa3-c782677b9f7c",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "You swear you saw\nhim hanging with\nthe goth kids",
+                                                "in the South Park\nepisode that aired\nlast night."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "58ce45c0-22ba-4b51-834b-6695fe11d92e",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "As you say hello,\nhe acknowledges\nyour presence",
+                                                "with a heavy sigh.\n 'Aren't you like\n   Butler 15 or",
+                                                "something? This\n family is such\n   a drag…"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "f73e367f-bf64-4cae-a81a-2851f800a1b0",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Mom has always\n  been a bit\n   batty... ",
+                                                "I try to tell her\nthis isn’t just a\n  phase...'"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "586297c3-6d2b-44fa-af50-afb146f1469c",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "'All she listens\nto is Tchaikosky\nsince they went to",
+                                                "school together…\n That old stuff is\n  a snooze fest.'"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "8f52d655-7ce7-401c-b36e-f5c345fdb269",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Ask him about\ncoming to dinner?"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "2d263111-1c41-40c4-9390-5fa3b2406bf9",
+                                        "command": "EVENT_CHOICE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "trueText": "Yes",
+                                            "falseText": "No"
+                                        }
+                                    },
+                                    {
+                                        "id": "e1fef5f6-aa9b-4c57-aece-c25ffd059073",
+                                        "command": "EVENT_END"
+                                    }
                                 ],
-                                "avatarId": "",
-                                "__collapse": false
-                            }
-                        },
-                        {
-                            "id": "b10fd461-b656-43ef-ae79-be567e29a584",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Mom has always\n  been a bit\n   batty... ",
-                                    "I try to tell her\nthis isn’t just a\n  phase...'"
-                                ],
-                                "avatarId": "",
-                                "__collapse": false
-                            }
-                        },
-                        {
-                            "id": "2e6fca80-d4ff-41db-9492-4bf9163b22e7",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "'All she listens\nto is Tchaikosky\nsince they went to",
-                                    "school together…\n That old stuff is\n  a snooze fest.'"
-                                ],
-                                "avatarId": "",
-                                "__collapse": false
-                            }
-                        },
-                        {
-                            "id": "fe9776f6-771c-413c-8789-4669814fc18e",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Ask him about\ncoming to dinner?"
-                                ],
-                                "avatarId": "",
-                                "__collapse": false
-                            }
-                        },
-                        {
-                            "id": "c178567e-7eb5-4e51-b08b-31f0cf146d54",
-                            "command": "EVENT_CHOICE",
-                            "args": {
-                                "variable": "L0",
-                                "trueText": "Yes",
-                                "falseText": "No",
-                                "__collapse": false
+                                "false": [
+                                    {
+                                        "id": "67491840-7aed-415d-addb-2b5e812124c2",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -9594,7 +9721,7 @@
                             "args": {
                                 "variable": "L0",
                                 "__collapseElse": false,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -9643,6 +9770,17 @@
                                         }
                                     },
                                     {
+                                        "id": "21a4f5bc-632a-4d9f-bf70-c974152d1755",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "749385a3-47f6-4684-a4e8-3a58d19dadda",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "up"
+                                            }
+                                        }
+                                    },
+                                    {
                                         "id": "320b1644-f251-4e40-88eb-3d7fe66734ea",
                                         "command": "EVENT_END"
                                     }
@@ -9661,7 +9799,7 @@
                             "args": {
                                 "variable": "L0",
                                 "__collapseElse": false,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -9674,6 +9812,17 @@
                                                 "waiting for you to\nleave"
                                             ],
                                             "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "6bd91d0f-720f-464e-941c-38cecaa5179f",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "749385a3-47f6-4684-a4e8-3a58d19dadda",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "up"
+                                            }
                                         }
                                     },
                                     {
@@ -16214,6 +16363,10 @@
         {
             "id": "2f036ad5-6fe9-4db1-89d0-778e2d889080__L0",
             "name": "Gladmir Flower"
+        },
+        {
+            "id": "20",
+            "name": "silasCd"
         }
     ],
     "settings": {
@@ -16222,8 +16375,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 522,
-        "worldScrollY": 757,
+        "worldScrollX": 774,
+        "worldScrollY": 489,
         "zoom": 250,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
