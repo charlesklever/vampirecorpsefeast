@@ -1,6 +1,6 @@
 {
     "name": "Vampire Corpse Feast",
-    "author": "chazd",
+    "author": "Lily-Chad Productions",
     "_version": "2.0.0",
     "_release": "3",
     "scenes": [
@@ -8027,8 +8027,8 @@
             "imageWidth": 160,
             "imageHeight": 208,
             "filename": "angstyteen.png",
-            "inode": "844424930457646",
-            "_v": 1638663687233
+            "inode": "2533274790915445",
+            "_v": 1638667089568
         },
         {
             "id": "2a8a7b92-99af-4bc5-a0bf-bc465b7185e9",
@@ -8038,8 +8038,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "basement.png",
-            "inode": "1125899907168296",
-            "_v": 1638663687233
+            "inode": "3659174697758070",
+            "_v": 1638667089568
         },
         {
             "id": "ef79c3bb-5af4-4aad-8abc-9448722b9ce8",
@@ -8049,8 +8049,19 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "black.png",
-            "inode": "1125899907168313",
-            "_v": 1638663687233
+            "inode": "562949954096536",
+            "_v": 1638667089568
+        },
+        {
+            "id": "27cf4fdc-4a99-4533-ab2c-086767d68f31",
+            "name": "cmdclogo",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "cmdclogo.png",
+            "inode": "3377699721047416",
+            "_v": 1638667089568
         },
         {
             "id": "cec3c060-11d4-4836-8657-2f34b2ea2e9c",
@@ -8060,8 +8071,8 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "diningroom.png",
-            "inode": "1407374883878959",
-            "_v": 1638663687233
+            "inode": "3377699721047419",
+            "_v": 1638667089568
         },
         {
             "id": "6ccfb41e-e474-45de-8a99-f4549ca4f3a8",
@@ -8071,8 +8082,8 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "diningroomcomplete.png",
-            "inode": "1125899907168316",
-            "_v": 1638663687233
+            "inode": "3377699721047423",
+            "_v": 1638667089568
         },
         {
             "id": "7bf73b9a-b7f8-43c0-b714-58fe914e0fdc",
@@ -8082,8 +8093,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "dungeon.png",
-            "inode": "1125899907168331",
-            "_v": 1638663687233
+            "inode": "3377699721047426",
+            "_v": 1638667089568
         },
         {
             "id": "7e0474e4-e68e-4eb6-a77a-24dbc7e9be5a",
@@ -8093,8 +8104,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "gameover.png",
-            "inode": "844424930457672",
-            "_v": 1638663687233
+            "inode": "2251799814204794",
+            "_v": 1638667089568
         },
         {
             "id": "c187b80f-2e7c-4e61-894c-45762479d908",
@@ -8104,8 +8115,8 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "garden.png",
-            "inode": "1125899907168329",
-            "_v": 1638663687233
+            "inode": "3377699721047417",
+            "_v": 1638667089568
         },
         {
             "id": "6847d3d7-4742-4c4c-96e5-c8f9e70576eb",
@@ -8115,8 +8126,8 @@
             "imageWidth": 224,
             "imageHeight": 144,
             "filename": "hallway.png",
-            "inode": "844424930457674",
-            "_v": 1638663687233
+            "inode": "2251799814204796",
+            "_v": 1638667089568
         },
         {
             "id": "415df648-9ea6-4674-9fe7-c23bcdf93850",
@@ -8126,8 +8137,8 @@
             "imageWidth": 160,
             "imageHeight": 256,
             "filename": "letter.png",
-            "inode": "844424930457684",
-            "_v": 1638663687233
+            "inode": "2251799814204797",
+            "_v": 1638667089568
         },
         {
             "id": "4ddb7bc4-396e-416a-bc30-47091acd388c",
@@ -8137,8 +8148,8 @@
             "imageWidth": 160,
             "imageHeight": 256,
             "filename": "lobby.png",
-            "inode": "1125899907168332",
-            "_v": 1638663687233
+            "inode": "3377699721047422",
+            "_v": 1638667089568
         },
         {
             "id": "892b5570-cf79-4de6-8496-c982442c6cb0",
@@ -8148,8 +8159,8 @@
             "imageWidth": 160,
             "imageHeight": 184,
             "filename": "momsgarage.png",
-            "inode": "1125899907168336",
-            "_v": 1638663687233
+            "inode": "3377699721047427",
+            "_v": 1638667089568
         },
         {
             "id": "84a3d410-bd56-47bb-8169-e5d6242e8194",
@@ -8159,8 +8170,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "study.png",
-            "inode": "1125899907168337",
-            "_v": 1638663687233
+            "inode": "3377699721047424",
+            "_v": 1638667089568
         },
         {
             "id": "b86c40dd-c40d-4383-8a3e-4e6de4586fcd",
@@ -8170,8 +8181,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "vampire_title_logo.png",
-            "inode": "844424930457705",
-            "_v": 1638663687233
+            "inode": "2251799814204801",
+            "_v": 1638667089568
         }
     ],
     "spriteSheets": [
@@ -8181,8 +8192,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "blankactor.png",
-            "inode": "1125899907168492",
-            "_v": 1638663687233
+            "inode": "3096224744336835",
+            "_v": 1638667089568
         },
         {
             "id": "a44b6a3b-1a3a-400d-b153-5ef32086be15",
@@ -8190,8 +8201,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "bookcase.png",
-            "inode": "1125899907168495",
-            "_v": 1638663687233
+            "inode": "3377699721047501",
+            "_v": 1638667089568
         },
         {
             "id": "9da6fd49-e967-42c3-93c8-c6e1db2a9fca",
@@ -8199,8 +8210,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "box.png",
-            "inode": "844424930457727",
-            "_v": 1638663687233
+            "inode": "1688849860783562",
+            "_v": 1638667089568
         },
         {
             "id": "01c6f6db-a4b2-45ee-83dc-48294c02fa7d",
@@ -8208,8 +8219,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "brokenchair1.png",
-            "inode": "1125899907168496",
-            "_v": 1638663687233
+            "inode": "2814749767626191",
+            "_v": 1638667089568
         },
         {
             "id": "117c8d0d-206b-4ef1-beae-b3fab3ec30ef",
@@ -8217,8 +8228,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "brokenchair2.png",
-            "inode": "1125899907168497",
-            "_v": 1638663687233
+            "inode": "2814749767626192",
+            "_v": 1638667089568
         },
         {
             "id": "8e1a7e60-481b-44d1-b998-b4921ec97ecb",
@@ -8226,8 +8237,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "canofblood.png",
-            "inode": "1125899907168501",
-            "_v": 1638663687233
+            "inode": "2814749767626193",
+            "_v": 1638667089568
         },
         {
             "id": "103a81f0-0bba-4e11-9e4b-58f0b2b64f8d",
@@ -8235,8 +8246,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "carrot.png",
-            "inode": "1125899907168503",
-            "_v": 1638663687233
+            "inode": "2814749767626194",
+            "_v": 1638667089568
         },
         {
             "id": "676e45ce-558d-420f-b5d4-bec3caf32fc5",
@@ -8244,8 +8255,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "inode": "844424930457731",
-            "_v": 1638663687233
+            "inode": "562949954096571",
+            "_v": 1638667089568
         },
         {
             "id": "5e28d468-fa82-4e4f-afcc-7e055f06fc22",
@@ -8253,8 +8264,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cdplayer.png",
-            "inode": "1688849860589823",
-            "_v": 1638663687233
+            "inode": "2814749767626198",
+            "_v": 1638667089568
         },
         {
             "id": "1fe8b675-6b2a-47d4-9237-e245f0e4e4bc",
@@ -8262,8 +8273,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "chest.png",
-            "inode": "844424930457733",
-            "_v": 1638663687233
+            "inode": "562949954096573",
+            "_v": 1638667089569
         },
         {
             "id": "06625384-1949-4b64-aa4a-9c159146a93a",
@@ -8271,8 +8282,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "coffin1.png",
-            "inode": "844424930457834",
-            "_v": 1638663687233
+            "inode": "1688849860783571",
+            "_v": 1638667089568
         },
         {
             "id": "85ab8481-e431-41c8-a57a-11619c222d0e",
@@ -8280,8 +8291,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "coffin2.png",
-            "inode": "844424930457835",
-            "_v": 1638663687233
+            "inode": "1688849860783572",
+            "_v": 1638667089568
         },
         {
             "id": "2255a2e4-1a57-400b-8f2d-5882caad1364",
@@ -8289,8 +8300,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "dad_vampire.png",
-            "inode": "844424930457837",
-            "_v": 1638663687233
+            "inode": "1688849860783573",
+            "_v": 1638667089568
         },
         {
             "id": "e1aa4c75-2933-4655-90dc-9076ccfe3283",
@@ -8298,8 +8309,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "inode": "844424930457838",
-            "_v": 1638663687233
+            "inode": "562949954096575",
+            "_v": 1638667089569
         },
         {
             "id": "a9162a51-4e44-442b-96f1-03963d641efb",
@@ -8307,8 +8318,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "inode": "844424930457842",
-            "_v": 1638663687233
+            "inode": "562949954096579",
+            "_v": 1638667089569
         },
         {
             "id": "78cefba4-bb89-4daf-ba9d-03a50a5e3319",
@@ -8316,8 +8327,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "greensteak.png",
-            "inode": "1125899907168615",
-            "_v": 1638663687233
+            "inode": "2814749767626203",
+            "_v": 1638667089568
         },
         {
             "id": "7a0b7f45-fd8b-442a-b0bb-a875ab7db0a5",
@@ -8325,8 +8336,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "hammer.png",
-            "inode": "844424930457843",
-            "_v": 1638663687233
+            "inode": "1688849860783575",
+            "_v": 1638667089568
         },
         {
             "id": "390eee95-fcee-4570-a051-29278c924f2f",
@@ -8334,8 +8345,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "hidden_stairs.png",
-            "inode": "844424930457844",
-            "_v": 1638663687233
+            "inode": "562949954096580",
+            "_v": 1638667089569
         },
         {
             "id": "a1669c79-abf0-4eb6-8433-eae6c17d8340",
@@ -8343,8 +8354,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "kid_vampire.png",
-            "inode": "844424930457846",
-            "_v": 1638663687233
+            "inode": "1688849860783576",
+            "_v": 1638667089569
         },
         {
             "id": "68548c86-0adb-4da4-b1fd-ac2fc6f4e3ef",
@@ -8352,8 +8363,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "mom_vampire.png",
-            "inode": "844424930457848",
-            "_v": 1638663687233
+            "inode": "1688849860783577",
+            "_v": 1638667089568
         },
         {
             "id": "d9e86b7e-20cd-4fc6-82fa-1872a68bb55d",
@@ -8361,8 +8372,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "inode": "844424930457849",
-            "_v": 1638663687233
+            "inode": "562949954096583",
+            "_v": 1638667089569
         },
         {
             "id": "a95bd590-b432-4d5b-ac8c-0e667f1a309c",
@@ -8370,8 +8381,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "inode": "1125899907168506",
-            "_v": 1638663687233
+            "inode": "562949954096584",
+            "_v": 1638667089569
         },
         {
             "id": "912ea2f1-55de-426f-a027-9ec10605736b",
@@ -8379,8 +8390,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "inode": "1125899907168507",
-            "_v": 1638663687233
+            "inode": "562949954096585",
+            "_v": 1638667089569
         },
         {
             "id": "dd2d1334-6218-4f05-8e01-c1ad4a3c02b0",
@@ -8388,8 +8399,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc004.png",
-            "inode": "844424930457852",
-            "_v": 1638663687233
+            "inode": "562949954096586",
+            "_v": 1638667089569
         },
         {
             "id": "55ccb737-2624-4570-9ad5-40a79d972f22",
@@ -8397,8 +8408,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc005.png",
-            "inode": "1125899907168509",
-            "_v": 1638663687233
+            "inode": "562949954096587",
+            "_v": 1638667089569
         },
         {
             "id": "fd0950a7-aca1-41fb-8291-d9f065b840c2",
@@ -8406,8 +8417,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc006.png",
-            "inode": "844424930457854",
-            "_v": 1638663687233
+            "inode": "562949954096588",
+            "_v": 1638667089569
         },
         {
             "id": "041ff4c4-03c5-43eb-802f-fe3f6cd24388",
@@ -8415,8 +8426,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "openbox.png",
-            "inode": "844424930457856",
-            "_v": 1638663687233
+            "inode": "1688849860783578",
+            "_v": 1638667089569
         },
         {
             "id": "a0fef6ee-16d6-4237-812e-20466a1cd5b5",
@@ -8424,8 +8435,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "plant.png",
-            "inode": "1125899907168616",
-            "_v": 1638663687233
+            "inode": "2814749767626204",
+            "_v": 1638667089569
         },
         {
             "id": "da67c1d5-be9c-4358-a7ad-b626adf598ce",
@@ -8433,8 +8444,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "plantwithoutplant.png",
-            "inode": "1125899907168617",
-            "_v": 1638663687233
+            "inode": "2814749767626206",
+            "_v": 1638667089569
         },
         {
             "id": "5f070b73-d5c8-4a9c-ad6f-1ff7d69113f2",
@@ -8442,8 +8453,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "inode": "1407374883879255",
-            "_v": 1638663687233
+            "inode": "562949954096590",
+            "_v": 1638667089569
         },
         {
             "id": "8c65ec5b-4f96-40ed-9b61-714a9c986ba2",
@@ -8451,8 +8462,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player_ship.png",
-            "inode": "844424930457944",
-            "_v": 1638663687233
+            "inode": "562949954096591",
+            "_v": 1638667089569
         },
         {
             "id": "b36c541d-feba-4a62-a990-28a1a78a735e",
@@ -8460,8 +8471,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player_sprite.png",
-            "inode": "844424930457956",
-            "_v": 1638663687233
+            "inode": "1688849860783581",
+            "_v": 1638667089569
         },
         {
             "id": "428b5e58-63e1-4aab-a347-c94116fae38c",
@@ -8469,8 +8480,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "pod_door.png",
-            "inode": "844424930457957",
-            "_v": 1638663687233
+            "inode": "562949954096592",
+            "_v": 1638667089569
         },
         {
             "id": "f75e6aab-8db7-45e2-98bb-c072e8fada1a",
@@ -8478,8 +8489,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "portal.png",
-            "inode": "844424930457958",
-            "_v": 1638663687233
+            "inode": "562949954096593",
+            "_v": 1638667089569
         },
         {
             "id": "a55995ac-c15a-4882-8a07-3896f0dda3e4",
@@ -8487,8 +8498,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "prisoner.png",
-            "inode": "1125899907168619",
-            "_v": 1638663687233
+            "inode": "2814749767626209",
+            "_v": 1638667089569
         },
         {
             "id": "53791873-5de6-4ae2-a9c7-734139e86005",
@@ -8496,8 +8507,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "savepoint.png",
-            "inode": "844424930457962",
-            "_v": 1638663687233
+            "inode": "562949954096597",
+            "_v": 1638667089569
         },
         {
             "id": "ffa5da1e-dfa0-4d68-af48-144d940e22d4",
@@ -8505,8 +8516,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "teen_vampire.png",
-            "inode": "844424930457965",
-            "_v": 1638663687233
+            "inode": "1688849860783583",
+            "_v": 1638667089569
         },
         {
             "id": "17512f2c-bd3c-4978-b803-4ec82d45c71e",
@@ -8514,8 +8525,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "torch.png",
-            "inode": "1125899907168633",
-            "_v": 1638663687233
+            "inode": "562949954096600",
+            "_v": 1638667089569
         },
         {
             "id": "bd02ff9c-e2c0-4880-aba6-85140187ad60",
@@ -8523,8 +8534,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "unclevampire.png",
-            "inode": "844424930458008",
-            "_v": 1638663687233
+            "inode": "1688849860783584",
+            "_v": 1638667089569
         }
     ],
     "palettes": [
@@ -9606,120 +9617,120 @@
             "name": "Detective Intro",
             "filename": "Detective Intro.mod",
             "settings": {},
-            "inode": "1125899907168338",
-            "_v": 1638663687230
+            "inode": "3377699721047428",
+            "_v": 1638667089551
         },
         {
             "id": "a9de770c-798d-4f53-b23a-c11420245634",
             "name": "Explosion1",
             "filename": "Explosion1.mod",
             "settings": {},
-            "inode": "1125899907168342",
-            "_v": 1638663687230
+            "inode": "3377699721047429",
+            "_v": 1638667089551
         },
         {
             "id": "fa23c027-0842-40ff-a27a-bfc17a865bec",
             "name": "Rulz_BattleTheme",
             "filename": "Rulz_BattleTheme.mod",
             "settings": {},
-            "inode": "844424930457706",
-            "_v": 1638663687230
+            "inode": "562949954096556",
+            "_v": 1638667089551
         },
         {
             "id": "22893a5d-809b-4859-97c1-e600cb9a23a8",
             "name": "Rulz_FastPaceSpeedRace",
             "filename": "Rulz_FastPaceSpeedRace.mod",
             "settings": {},
-            "inode": "844424930457707",
-            "_v": 1638663687230
+            "inode": "562949954096557",
+            "_v": 1638667089551
         },
         {
             "id": "747db54e-83ed-4ee6-b3cd-0b261fb3fd11",
             "name": "Rulz_GonaSpace",
             "filename": "Rulz_GonaSpace.mod",
             "settings": {},
-            "inode": "844424930457708",
-            "_v": 1638663687230
+            "inode": "562949954096558",
+            "_v": 1638667089551
         },
         {
             "id": "82fd40df-f302-435c-855f-624be735767e",
             "name": "Rulz_Into the woods",
             "filename": "Rulz_Into the woods.mod",
             "settings": {},
-            "inode": "844424930457710",
-            "_v": 1638663687230
+            "inode": "562949954096559",
+            "_v": 1638667089551
         },
         {
             "id": "cb38d161-3c5a-41bd-902d-48d5a6661100",
             "name": "Rulz_Intro",
             "filename": "Rulz_Intro.mod",
             "settings": {},
-            "inode": "844424930457711",
-            "_v": 1638663687230
+            "inode": "562949954096560",
+            "_v": 1638667089551
         },
         {
             "id": "738a20a1-4848-4b69-b816-0d72be58ada2",
             "name": "Rulz_LightMood",
             "filename": "Rulz_LightMood.mod",
             "settings": {},
-            "inode": "844424930457712",
-            "_v": 1638663687230
+            "inode": "562949954096561",
+            "_v": 1638667089551
         },
         {
             "id": "32adcf1e-ef88-4641-ba81-cc1f69409e4e",
             "name": "Rulz_Outside",
             "filename": "Rulz_Outside.mod",
             "settings": {},
-            "inode": "844424930457713",
-            "_v": 1638663687230
+            "inode": "562949954096562",
+            "_v": 1638667089551
         },
         {
             "id": "8d547957-b50d-4c7d-9c58-38698cf382df",
             "name": "Rulz_Pause_Underground",
             "filename": "Rulz_Pause_Underground.mod",
             "settings": {},
-            "inode": "844424930457714",
-            "_v": 1638663687230
+            "inode": "562949954096563",
+            "_v": 1638667089551
         },
         {
             "id": "0824ed19-006f-4728-b492-13aab6e74951",
             "name": "Rulz_SpaceEmergency",
             "filename": "Rulz_SpaceEmergency.mod",
             "settings": {},
-            "inode": "844424930457715",
-            "_v": 1638663687230
+            "inode": "562949954096564",
+            "_v": 1638667089551
         },
         {
             "id": "1bdec430-b973-44a8-b1c9-b10fa565553e",
             "name": "Rulz_UndergroundCave",
             "filename": "Rulz_UndergroundCave.mod",
             "settings": {},
-            "inode": "844424930457719",
-            "_v": 1638663687230
+            "inode": "562949954096565",
+            "_v": 1638667089551
         },
         {
             "id": "2e645641-57dd-4469-a314-cb15dd3b7921",
             "name": "Short Hauntings",
             "filename": "Short Hauntings.mod",
             "settings": {},
-            "inode": "1125899907168343",
-            "_v": 1638663687230
+            "inode": "3377699721047430",
+            "_v": 1638667089551
         },
         {
             "id": "7c2b4168-df30-44f6-93e3-8b053f1ea824",
             "name": "Slow death",
             "filename": "Slow death.mod",
             "settings": {},
-            "inode": "1125899907168344",
-            "_v": 1638663687230
+            "inode": "3377699721047431",
+            "_v": 1638667089551
         },
         {
             "id": "fd182e95-a7d6-48ab-bb39-a9f00db3fbbb",
             "name": "a_6",
             "filename": "a_6.mod",
             "settings": {},
-            "inode": "1125899907168347",
-            "_v": 1638663687230
+            "inode": "3377699721047433",
+            "_v": 1638667089551
         }
     ],
     "variables": [
@@ -9846,8 +9857,8 @@
         "startY": 11,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 523,
-        "worldScrollY": 452,
+        "worldScrollX": 4,
+        "worldScrollY": 0,
         "zoom": 125,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
