@@ -7645,7 +7645,141 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "44f88992-ff6e-4238-b0e1-6803fe7c700f",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "22",
+                                "__collapseElse": false,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "914e18dd-5b7d-40ba-80ae-179d0dfbd2c7",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "this chair seems\nbroken, if only I\nhad a hammer..."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "9fda6424-fe5b-4f71-8cb4-f2ab4b17cf36",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "df964ed5-4fad-4ec2-9af9-44f214f3b258",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "You have the\nhammer, fix the\nchair?"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "4eb5b43b-b5a6-4078-8d4f-fa771f7007ca",
+                                        "command": "EVENT_CHOICE",
+                                        "args": {
+                                            "variable": "38",
+                                            "trueText": "yes",
+                                            "falseText": "no"
+                                        }
+                                    },
+                                    {
+                                        "id": "241cb841-b460-4bc7-955a-b5da0c26b9ec",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "38",
+                                            "__collapseElse": false,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "5b03ae17-04b2-4405-b313-9e210f981c07",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "You being\nrepairing the\nchair. "
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "1bc42b53-9f3d-411b-95b1-835e9cbd3d36",
+                                                    "command": "EVENT_FADE_OUT",
+                                                    "args": {
+                                                        "speed": "2"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "1222243d-11cc-4434-9f9d-c3df7f33e04e",
+                                                    "command": "EVENT_ACTOR_SET_SPRITE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "spriteSheetId": "87a578b6-209f-46de-8677-56cc4e4dec3f"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "6af268b4-1015-402b-bb5f-5e714f23df0b",
+                                                    "command": "EVENT_FADE_IN",
+                                                    "args": {
+                                                        "speed": "2"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "4190065e-b320-41f6-a856-7ee9d2bdbabe",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "You feel\naccomplished in\nhow sturdy this",
+                                                            "chair is now after\nyour handywork.\nYou should return",
+                                                            "to Agatha to let\nher know it's\nfixed. "
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "4a51a947-1da8-4031-aef1-4520ecaeffdb",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "c894beef-2e4f-41a4-8e18-07e354e894ef",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Maybe later\nthen..."
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "49c32b1d-4c8b-4f6a-9a10-d624c7de2d34",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "64ab51c1-205e-4b30-95d6-ac3ffc9641ae",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "83541c07-89bf-4f0d-8c53-0302eed895d1",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -7664,7 +7798,232 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "b81df41f-9313-4d98-ad2c-1f879a7be98e",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "A small child is\nsitting in a chair\nswinging his legs ",
+                                    "back and forth. A\nfork in one hand,\na knife in his",
+                                    "left, and a bib\ntied around his\nneck. "
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "8d0d7eee-fe4a-4bf1-8d3e-af69c99e0c17",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Upon noticing you\nhe smiles wide\nrevealing a set of",
+                                    "teeth fit for a\npiranha. You\ninstinctively ",
+                                    "recoil as he\nbegins to speak..."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "4ecb0b94-40f1-4343-a396-6c40a926ad50",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I can't wait for\nthe feast! I love\nmy family very",
+                                    "much, have you\nhelped them get\nready yet? "
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "1b9e11d2-5865-4037-a2cf-359e0ab9b493",
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "34",
+                                "trueText": "yes",
+                                "falseText": "no",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "ebdbc352-b59f-41cf-95e5-cc7e23615980",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "34",
+                                "__collapseElse": false,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "09d5b4ee-ed28-49de-a92b-aa9a898e6d80",
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "30",
+                                            "operator": "==",
+                                            "comparator": 4,
+                                            "__collapseElse": false,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "d34cb903-4a55-45aa-9ff9-307a4c2ff163",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "2684c449-e36d-4e90-b5d0-5a18436932b5",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "You see his once\nwide smile fade\ninto a curling",
+                                                            "pout, his eyebrows\nfurrow and you\nfeel a chill crawl",
+                                                            "down your spine. "
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "c30a11b3-72d5-4909-8c53-532553cee5fa",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "\"Why must they\nalways \nLIE TO ME!\""
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "5a7ea801-306e-46e6-b0ef-1ea7f768ede6",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "The voice no\nlonger sounds like\nthat of the 8 year",
+                                                            "old before you,\nbut is more akin\nto a creature that",
+                                                            "has lived for\nmillenia."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "28ec35bd-5be5-4a94-82d5-ab21ca4609c0",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "You take a step\nback but before\nyour foot hits the",
+                                                            "ground his mouth\nopens and the boy\nlaunches at you.",
+                                                            "You feel yourself\npinned to the\nground as he ",
+                                                            "chomps through\nyour neck."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "99cc19e2-eda6-4ce8-8f31-8a828d7edb6c",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Your eyes begin to\nfeel heavy as you\nstruggle..."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "a80b1683-6eaa-43a6-850e-f0dcb4926146",
+                                                    "command": "EVENT_MUSIC_PLAY",
+                                                    "args": {
+                                                        "musicId": "79da3360-6f6b-49ff-8b3d-b4598530930f",
+                                                        "loop": false,
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "3a22c14c-c0d2-47fb-93c4-988baebdb6f8",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "finally you feel\nas though you're\nfalling asleep..."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "4d7e75c1-21a7-40cb-a976-990d478608b7",
+                                                    "command": "EVENT_FADE_OUT",
+                                                    "args": {
+                                                        "speed": "4",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "086241bc-43fe-45a0-af28-4099723d7e8a",
+                                                    "command": "EVENT_SWITCH_SCENE",
+                                                    "args": {
+                                                        "sceneId": "a11c2f1d-d31a-4a88-afe7-6cd56c2efa21",
+                                                        "x": 15,
+                                                        "y": 17,
+                                                        "direction": "",
+                                                        "fadeSpeed": "2",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "966355c4-04a7-4f2c-b2aa-983362c6c426",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "0bd5dfb8-0ad0-41ca-b7be-b00a111a2411",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "7147ad12-5b95-4514-8b43-11d2335b07d1",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The boy goes back\nto swinging his\nlegs and smiling",
+                                                "he tells you.."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "d794880b-4503-4dfe-a833-00342418c86b",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Please make sure\nSilas, Mama, Dad,\nand Uncle Bunni",
+                                                "are coming!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "9fdcc9a0-e7e5-4831-87d0-e688dff61ccf",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "fd7f4adf-dc30-482d-851c-92959b4715a0",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -8072,7 +8431,12 @@
                 0
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "29432eec-6d98-4516-a71b-0c2d7707cbd0",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -8673,23 +9037,59 @@
                 0,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
+                15,
+                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -8715,7 +9115,9 @@
                 0,
                 0,
                 0,
+                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -8741,7 +9143,9 @@
                 0,
                 0,
                 0,
+                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -8767,7 +9171,9 @@
                 0,
                 0,
                 0,
+                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -8793,7 +9199,9 @@
                 0,
                 0,
                 0,
+                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -8819,7 +9227,9 @@
                 0,
                 0,
                 0,
+                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -8845,7 +9255,9 @@
                 0,
                 0,
                 0,
+                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -8871,83 +9283,35 @@
                 0,
                 0,
                 0,
+                15,
                 0,
+                15,
+                15,
+                15,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -11013,7 +11377,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "b203a470-7ba9-47a3-bc53-78e1ebc39cee",
+                    "spriteSheetId": "87a578b6-209f-46de-8677-56cc4e4dec3f",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -11291,6 +11655,15 @@
             "filename": "cdplayer.png",
             "inode": "1970324837479772",
             "_v": 1639262818487
+        },
+        {
+            "id": "87a578b6-209f-46de-8677-56cc4e4dec3f",
+            "name": "chair-fixed",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "chair-fixed.png",
+            "inode": "3096224744322692",
+            "_v": 1639263618368
         },
         {
             "id": "9f3e9573-6765-4bf9-aa8a-cbe260705a80",
@@ -12138,7 +12511,7 @@
         },
         {
             "id": "38",
-            "name": "TeenHelped"
+            "name": "fixingChair"
         },
         {
             "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
@@ -12191,6 +12564,10 @@
         {
             "id": "b445adfb-ba9f-45cf-bdc2-85e9bdedc9d8__L0",
             "name": "Local 0"
+        },
+        {
+            "id": "34",
+            "name": "toldKiddo"
         }
     ],
     "settings": {
@@ -12199,9 +12576,9 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2121,
-        "worldScrollY": 381,
-        "zoom": 225,
+        "worldScrollX": 253,
+        "worldScrollY": 231,
+        "zoom": 175,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
