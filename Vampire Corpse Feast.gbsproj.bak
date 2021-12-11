@@ -9070,84 +9070,6 @@
                     "animSpeed": "3",
                     "script": [
                         {
-                            "id": "4a8d44ec-7671-44d1-8655-cc1d9bc4dcdf",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "You approach what\nyou presume is the\nmother of the",
-                                    "household and say\nhello. "
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "4556dee2-646f-4dc5-bda9-579bd734220a",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "You see her recoil\nand cover her ears\nshrieking in the",
-                                    "process."
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "285e988e-13a3-4220-b1a9-6cc2a8d39511",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "“YOU Butlers are\nalways so LOUD... ",
-                                    "Please be\nrespectful of my\nears.” "
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "b7839054-1a26-4c80-ac57-838ac9bc38bc",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Hoping your ears\naren’t bleeding,\nin but a faint",
-                                    "whisper, you ask\nher if she will be\nattending dinner",
-                                    "this evening.\n\n"
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "8cc554bc-0b6a-4460-85d8-311e833436bb",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "“I can’t bear to\nbe in that room\nwith the chairs",
-                                    "being so squeaky.\nIt feels as though\nsilver bullets ar",
-                                    "being fired into\nmy ears.”"
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "09173e5a-c816-4495-9903-043420e8e8a9",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "“I do recall the\nhammer being in\nthe basement… ",
-                                    "It's the chair\nclosest to the\nhallway door..\""
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "a641c93b-2932-4884-aaf9-dd62f78854c2",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "You decide to\nleave before she\nshrieks again."
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
                             "id": "542e1933-1783-49be-a8ac-29c8e661acbd",
                             "command": "EVENT_IF_FALSE",
                             "args": {
@@ -9158,6 +9080,74 @@
                                 "true": [
                                     {
                                         "id": "318b04e6-85a3-40c6-bb78-bdecd43fcbbc",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "You approach what\nyou presume is the\nmother of the",
+                                                "household and say\nhello. "
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "435b3bc4-a0af-49d3-bb96-f5510d94c502",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "You see her recoil\nand cover her ears\nshrieking in the",
+                                                "process."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "41253516-9a8d-4538-be3c-92671c8e8eaf",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "“YOU Butlers are\nalways so LOUD... ",
+                                                "Please be\nrespectful of my\nears.” "
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "1f7da858-ac9c-4e6c-a9fd-4d129c81d551",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Hoping your ears\naren’t bleeding,\nin but a faint",
+                                                "whisper, you ask\nher if she will be\nattending dinner",
+                                                "this evening.\n\n"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "e949def5-4698-47a3-8d18-f377e1ed2ae8",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "“I can’t bear to\nbe in that room\nwith the chairs",
+                                                "being so squeaky.\nIt feels as though\nsilver bullets ar",
+                                                "being fired into\nmy ears.”"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "b3c86f96-a347-479a-af30-1f7f479019a3",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "“I do recall the\nhammer being in\nthe basement… ",
+                                                "It's the chair\nclosest to the\nhallway door..\""
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "4a2224fd-ce31-4e62-9d20-7fac04edf7a2",
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
@@ -11671,8 +11661,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1584,
-        "worldScrollY": 1458,
+        "worldScrollX": 1966,
+        "worldScrollY": 1246,
         "zoom": 225,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
