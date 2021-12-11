@@ -9375,8 +9375,6 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "8c57986f-4223-4da4-90d3-f8cedd711cf6",
-            "x": 1081.333333333334,
-            "y": 997.1333363850924,
             "actors": [],
             "triggers": [
                 {
@@ -11277,17 +11275,13 @@
                                     "The boy turns and\nlooks at the rest\nof his family",
                                     "sitting at the\ntable. The\nchildlike demeanor",
                                     "fades from him as\nhis legs stop\nswinging from the",
-                                    "chair."
                                 ],
-                                "avatarId": ""
                             }
                         },
                         {
                             "id": "a4b8ae50-d2ac-409d-be1b-9e59559fe4d3",
                             "command": "EVENT_TEXT",
                             "args": {
-                                "text": "",
-                                "avatarId": ""
                             }
                         },
                         {
@@ -12664,8 +12658,6 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 485,
-        "worldScrollY": 611,
         "zoom": 175,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
