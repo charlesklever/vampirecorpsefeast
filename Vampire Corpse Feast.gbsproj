@@ -11268,7 +11268,33 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "5737411a-b6c8-45aa-a739-0b0922978220",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "The boy turns and\nlooks at the rest\nof his family",
+                                    "sitting at the\ntable. The\nchildlike demeanor",
+                                    "fades from him as\nhis legs stop\nswinging from the",
+                                    "chair."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "a4b8ae50-d2ac-409d-be1b-9e59559fe4d3",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": "",
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "bca0d5c7-98b4-4d0b-aeca-a899941b6a0d",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -11287,7 +11313,22 @@
                     "direction": "right",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "470a0ecb-5cb8-4449-a0a2-2008cc0f4512",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You catch him\nstaring at his\nwife lovingly..."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "09a4f0f5-2a50-4bb1-b618-86c63c9b554a",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -11306,7 +11347,23 @@
                     "direction": "right",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "114c95e3-af7d-4884-9bed-ebd822ac20da",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "She is smiling,\nstarting at the\nflower given to ",
+                                    "her by Glad. "
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "8040ea27-a449-4eb1-aec1-900828ca2fd7",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -11325,7 +11382,23 @@
                     "direction": "left",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "72f3ffb0-7f73-4fcc-9952-407f5354049c",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "He's nodding his\nhead with his\nheadphones on..",
+                                    "he doesn't seem to\nnotice you're\nthere."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "d568088e-69e4-4d67-b376-8dfabb75b7ed",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -11344,7 +11417,22 @@
                     "direction": "left",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "050fd151-81dc-411a-b987-15a8bb137c90",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "He still smells\nlike charcoal..."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "d160b85f-887c-49ac-8a65-41b3166f8f2c",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -12576,8 +12664,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 253,
-        "worldScrollY": 231,
+        "worldScrollX": 485,
+        "worldScrollY": 611,
         "zoom": 175,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
