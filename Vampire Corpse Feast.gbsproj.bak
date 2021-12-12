@@ -9375,8 +9375,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "8c57986f-4223-4da4-90d3-f8cedd711cf6",
-            "x": 1081.333333333334,
-            "y": 997.1333363850924,
+            "x": 1080.7619047619053,
+            "y": 1055.4190506708064,
             "actors": [],
             "triggers": [
                 {
@@ -11277,17 +11277,176 @@
                                     "The boy turns and\nlooks at the rest\nof his family",
                                     "sitting at the\ntable. The\nchildlike demeanor",
                                     "fades from him as\nhis legs stop\nswinging from the",
-                                    "chair."
+                                    "chair. He begins\nto speak..."
                                 ],
-                                "avatarId": ""
+                                "avatarId": "",
+                                "__collapse": true
                             }
                         },
                         {
                             "id": "a4b8ae50-d2ac-409d-be1b-9e59559fe4d3",
                             "command": "EVENT_TEXT",
                             "args": {
-                                "text": "",
-                                "avatarId": ""
+                                "text": [
+                                    "Thank you for\njoining me this\nfine evening. With",
+                                    "the exemplary work\nof Butler 13, you\nall have been",
+                                    "able to make it."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "25fb234c-2394-4e61-90ad-f8d9379086b2",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "The rest of the\nfamily members\nbegin to clap, ",
+                                    "acknowledging you\nhard work for the\nday. "
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "6cfd5fae-a7e6-4ba9-84a7-ce60cb34418b",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "The boy raises his\nhand and the\nclapping ceases.",
+                                    "he begins to\nspeak again..."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "8defd415-f9bf-443e-b3f4-be75f1a355b6",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I am Atticus\nZamfir, as head of\nthe Zamfir family",
+                                    "I congratulate you\non a successful\nfirst day. ",
+                                    "We look forward to\nyour continued\nservice. For now ",
+                                    "you are relieved\nfrom your duties\nfor the day."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "10a7ba0e-43ff-4320-9f7f-2f43555fa378",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "He drops a brown\npouch into your\nhand, you open it",
+                                    "and it is filled\nwith what appear\nto be gold pieces."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "5b119d1f-4e0d-49a0-903e-3903bf238caa",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "\"Return tomorrow,\nsame time,\" He\nsays as he",
+                                    "gestures to the\ndoor."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "71ed3b47-00ed-48c9-8876-c2d95069cf05",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Stunned at the\namount of money\nyou have received",
+                                    "you hesitate long\nenough to hear him\nspeak again. "
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "cedece2a-90e3-4e93-96c6-8666b8d038b1",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Unless you'd like\nto stay for the\nmeal..."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "17518e66-44af-43b0-b5ce-38f1f2427db2",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "He smiles wide to\nreveal the same\nset of teeth that",
+                                    "spooked you\nearlier. "
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "665c04ab-cb3b-45f7-8fc3-fec61df311af",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You decide you'd\nbetter be off. "
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "eba3ee2f-b189-46f0-8316-19b008e33e4b",
+                            "command": "EVENT_FADE_OUT",
+                            "args": {
+                                "speed": "4",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "bfc07757-5c9d-4f09-8f7c-14294653908a",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "As the front door\ncloses behind you\nthe lock ",
+                                    "mechanism is\nengaged."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "7cdd542b-da0d-4548-ae7c-39502f14cb0e",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "On the walk home\nyou begin\nquestioning ",
+                                    "showing up again.\nThe weight of the\npouch in your",
+                                    "pocket is hard to\nignore."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "ebd012e0-1d47-4e3e-9307-15cbbb8d3e78",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You think to\nyourself...",
+                                    "Does Chase Bank\neven accept gold\ncoins?"
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
                             }
                         },
                         {
@@ -12664,8 +12823,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 485,
-        "worldScrollY": 611,
+        "worldScrollX": 661,
+        "worldScrollY": 233,
         "zoom": 175,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
