@@ -188,7 +188,7 @@ AREA .  .ABS.
 		l__BASE	0245
 		l__HOME	0252
 		l__GSINIT	0517
-		l__CODE_10	0BA4
+		l__CODE_10	0B3C
 		l__DATA	0E22
 		l__CODE_11	177C
 		l__CODE_5	2112
@@ -201,12 +201,12 @@ AREA .  .ABS.
 		l__CODE_1	3905
 		s__GSINITTAIL	3A63
 		s__GSFINAL	3A64
-		l__CODE_9	3FF0
-		l__CODE_8	3FF8
-		l__CODE_7	3FFA
+		l__CODE_9	3FEE
+		l__CODE_8	3FEF
+		l__CODE_7	3FF2
+		l__CODE_6	3FFF
 		s__CODE_10	4000
 		s__CODE_11	4000
-		l__CODE_6	4000
 		s__CODE_1	4000
 		s__CODE_4	4000
 		s__CODE_5	4000
@@ -1036,35 +1036,35 @@ AREA _XSEG
 AREA _CODE_10
 	RADIX HEX
 	BASE 4000
-	SIZE 0BA4
+	SIZE 0B3C
 	ATTRIB REL CON
 	GLOBALS
 		_bank_10_data	4000
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 4000
+	SIZE 3FFF
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3FFA
+	SIZE 3FF2
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF8
+	SIZE 3FEF
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
 AREA _CODE_9
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF0
+	SIZE 3FEE
 	ATTRIB REL CON
 	GLOBALS
 		_bank_9_data	4000
@@ -1516,66 +1516,64 @@ MODULES
 		NAME Runtime
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Actor_a.o
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Actor_b.o
-		NAME C__Users_ahria_AppData_Local_TemÔ»’ÙÔ»’Ùİ²üÑOiz!ŠJzw1zw1zİ²‹¦}¯
+		NAME C__Users_ahria_AppData_Local_Tem=	ä=	ä4
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Actor.o
-		NAME C__Users_ahria_AppData_Local_Temt´’Ùt´’Ù}½üÑïizÁWJz×1z×1z}½‹¦®
+		NAME C__Users_ahria_AppData_Local_Tem=ä=ä4`ì¦¯õGF9G¯­G¯­G4›/ºæ
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/asm.macros.o
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/BankData.o
-		NAME C__Users_ahria_AppData_Local_Tem4²’Ù4²’Ù=»üÑ¯iz¥-Jz—1z—1z=»‹¦I®Ö
+		NAME C__Users_ahria_AppData_Local_Temää`ì†­õGÔd9G¾­­G¾­­G›cºº
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/BankManager.o
-		NAME C__Users_ahria_AppData_Local_Temt¾’Ùt¾’Ù}·üÑïizğJz×1z×1z}·‹¦Á¯^
+		NAME C__Users_ahria_AppData_Local_Tem=ä=ä4`ì¦½õG½Ï9G½­G½­G4›o¸¦
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Camera_a.o
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Camera.o
-		NAME C__Users_ahria_AppData_Local_Tem¸’Ù¸’Ù±üÑizªJz·1z·1z±‹¦õ¬ŠŒ
+		NAME C__Users_ahria_AppData_Local_TemİäİäÔ`ìF»õGµõ9G~»­G~»­GÔ›»¸R8
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Collision.o
-		NAME C__Users_ahria_AppData_Local_Tem´§’Ù´§’Ù½®üÑ/izåÓJz1z1z½®‹¦ù¬†Œ
+		NAME C__Users_ahria_AppData_Local_Temıäıäô`ìf½õGu¦9G^½­G^½­Gô›‡¸3
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Core_Main.o
-		NAME C__Users_ahria_AppData_Local_Tem»’Ù»’Ù²üÑiz|‰Jz·1z·1z²‹¦U¯êŒ
+		NAME C__Users_ahria_AppData_Local_TemİäİäÔ`ìF±õG¿9G~±­G~±­GÔ›û¹ı(
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/DataManager.o
-		NAME C__Users_ahria_AppData_Local_Tem´º’Ù´º’Ù½³üÑ/iz"¯Jz1z1z½³‹¦Y¯æŒ·B
+		NAME C__Users_ahria_AppData_Local_Tem½ä½ä´`ì&¹õG
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/FadeManager_b.o
-		NAME C__Users_ahria_AppData_Local_TemTº’ÙTº’Ù]³üÑÏiz$±Jz÷1z÷1z]³‹¦M¯ÒŒ
+		NAME C__Users_ahria_AppData_Local_Temää”`ì½õGb9G>½­G>½­G”›s¸ª
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/FadeManager.o
-		NAME C__Users_ahria_AppData_Local_Temô¹’Ùô¹’Ùı°üÑoizÏ”JzW1zW1zı°‹¦1¯ÎŒ
+		NAME C__Users_ahria_AppData_Local_Tem=ä=ä4`ì¦¾õGÊÔ9G¾­G¾­G4›¸Æ)
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/gbt_player_bank1.o
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/gbt_player.o
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Input.o
-		NAME C__Users_ahria_AppData_Local_Tem”¦’Ù”¦’Ù¯üÑiz®Jz71z71z¯‹¦Å¬ZŒ
+		NAME C__Users_ahria_AppData_Local_Temää`ì†»õG·æ9G¾»­G¾»­G›£¸z.6
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Math.o
-		NAME C__Users_ahria_AppData_Local_Tem4£’Ù4£’Ù=ªüÑ¯
+		NAME C__Users_ahria_AppData_Local_TemİäİäÔ`ìF¼õGb59G~¼­G~¼­GÔ›[¸²0
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/MusicManager.o
-		NAME C__Users_ahria_AppData_Local_Temô£’Ùô£’ÙıªüÑo
+		NAME C__Users_ahria_AppData_Local_Tem}%ä}%ät,`ìæ†õGšx9GŞ†­GŞ†­Gt,›¿?
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Palette.o
-		NAME C__Users_ahria_AppData_Local_TemÔ¢’ÙÔ¢’Ùİ«üÑOiz%Jzw1zw1zİ«‹¦]¬â‹
+		NAME C__Users_ahria_AppData_Local_Tem}ä}ät`ìæ±õG 29GŞ±­GŞ±­Gt›÷¹.
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Projectiles_b.o
-		NAME C__Users_ahria_AppData_Local_Temt¢’Ùt¢’Ù}«üÑïizkÀJz×1z×1z}«‹¦A¬Ş‹
+		NAME C__Users_ahria_AppData_Local_Temıäıäô`ìf¾õG¼9G^¾­G^¾­Gô›'¸ş+
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Projectiles.o
-		NAME C__Users_ahria_AppData_Local_Tem´¡’Ù´¡’Ù½¨üÑ/izoÅJz1z1z½¨‹¦9¬Æ‹
+		NAME C__Users_ahria_AppData_Local_Temíğäíğääìv¸GWÇGN¸SGN¸SGäé›åx5
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner_b.o
-		NAME C__Users_ahria_AppData_Local_TemKÙKÙ%Ñ¾°z•î“z·¾èz·¾èzR¦•›s
+		NAME C__Users_ahria_AppData_Local_Tem­ğä­ğä¤ì6¹G
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner.o
-		NAME C__Users_ahria_AppData_Local_Tem4KÙ4KÙ=%Ñ¯¡°zJ“z—¡èz—¡èz=R¦I˜
+		NAME C__Users_ahria_AppData_Local_Tem­ğä­ğä¤ì6ºGÙQÇGºSGºSG¤é›x}
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Scroll_a.o
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Scroll_b.o
-		NAME C__Users_ahria_AppData_Local_TemTKÙTKÙ]%ÑÏ¿°zç“z÷¿èz÷¿èz]R¦›K
+		NAME C__Users_ahria_AppData_Local_Temmğämğädìö»GşÇGÎ»SGÎ»SGdé›µxE
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Scroll.o
-		NAME C__Users_ahria_AppData_Local_TemÔKÙÔKÙİ%ÑO§°z}Ì“zw§èzw§èzİR¦˜{
+		NAME C__Users_ahria_AppData_Local_Tem-ğä-ğä$ì¶¸G#¾ÇG¸SG¸SG$é›Íx-
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Sprite_b.o
-		NAME C__Users_ahria_AppData_Local_Tem´KÙ´KÙ½
-%Ñ/ °z€Ÿ“z èz èz½
-R¦y˜_
+		NAME C__Users_ahria_AppData_Local_TemÍğäÍğäÄìV¼G{¶ÇGn¼SGn¼SGÄé›Yx±
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Sprite.o
-		NAME C__Users_ahria_AppData_Local_TemtKÙtKÙ}%Ñï¢°zî“z×¢èz×¢èz}R¦!˜çŒ
+		NAME C__Users_ahria_AppData_Local_Tem­ğä­ğä¤ì6¿G¹ÇG¿SG¿SG¤é›=xİ
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Stack.o
-		NAME C__Users_ahria_AppData_Local_TemÔKÙÔKÙİ%ÑO¹°z±”“zw¹èzw¹èzİR¦]›;
+		NAME C__Users_ahria_AppData_Local_Temğäğäì–»G-”ÇG®»SG®»SGé›¡xI
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Trigger_b.o
-		NAME C__Users_ahria_AppData_Local_TemôKÙôKÙı%Ño¦°zÑ\“zW¦èzW¦èzıR¦±˜—
+		NAME C__Users_ahria_AppData_Local_Temğäğä„ì¸GO²ÇG.¸SG.¸SG„é›Ñx9
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Trigger.o
-		NAME C__Users_ahria_AppData_Local_TemKÙKÙ%Ñ¹°z?¶“z·¹èz·¹èzR¦5›
+		NAME C__Users_ahria_AppData_Local_Temğäğäì–®GõÇG®®SG®®SGé›zé
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/UI_b.o
-		NAME C__Users_ahria_AppData_Local_Tem´KÙ´KÙ½%Ñ/¥°zº)“z¥èz¥èz½R¦Ù˜¿
+		NAME C__Users_ahria_AppData_Local_Temmğämğädìö®G÷ÇGÎ®SGÎ®SGdé›zå
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/UI.o
-		NAME C__Users_ahria_AppData_Local_TemôKÙôKÙı%Ño»°zÌ“zW»èzW»èzıR¦›÷
+		NAME C__Users_ahria_AppData_Local_Temğäğäì–¤G#İÇG®¤SG®¤SGé›A{©
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/bank_10.o
 		NAME bank_10
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/bank_6.o
@@ -1587,21 +1585,21 @@ R¦y˜_
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/bank_9.o
 		NAME bank_9
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/data_ptrs.o
-		NAME C__Users_ahria_AppData_Local_TemTKÙTKÙ]%ÑÏ®°z°“z÷®èz÷®èz]R¦­™kŒ
+		NAME C__Users_ahria_AppData_Local_TemMğäMğäDìÖ¡GVÇGî¡SGî¡SGDé›é{
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/main.o
-		NAME C__Users_ahria_AppData_Local_Tem4KÙ4KÙ=%Ñ¯¬°zC@“z—¬èz—¬èz=R¦é™¯Œ
+		NAME C__Users_ahria_AppData_Local_Temğäğä„ì¯GeÕÇG.¯SG.¯SG„é›1zÙ
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/music_bank_11.o
 		NAME music_bank_11
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Adventure.o
-		NAME C__Users_ahria_AppData_Local_Tem4KÙ4KÙ=%Ñ¯²°z»,“z—²èz—²èz=R¦)šï
+		NAME C__Users_ahria_AppData_Local_TemMğäMğäDìÖ¶G-;ÇGî¶SGî¶SGDé›	yá
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Platform.o
-		NAME C__Users_ahria_AppData_Local_TemtKÙtKÙ}%Ñï°°z—w“z×°èz×°èz}R¦aš'
+		NAME C__Users_ahria_AppData_Local_TemMğäMğäDìÖ°G ÇGî°SGî°SGDé›Éy!
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/PointNClick.o
-		NAME C__Users_ahria_AppData_Local_Tem´(KÙ´(KÙ½!%Ñ/‹°z“•“z‹èz‹èz½!R¦ÿ
+		NAME C__Users_ahria_AppData_Local_TemÍğäÍğäÄìV¨GîàÇGn¨SGn¨SGÄé›Ùz1
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/Shmup.o
-		NAME C__Users_ahria_AppData_Local_Tem´KÙ´KÙ½%Ñ/¼°zÂª“z¼èz¼èz½R¦ù›ß
+		NAME C__Users_ahria_AppData_Local_Temğäğäì–²Gš7ÇG®²SG®²SGé›yi
 	FILE C:/Users/ahria/AppData/Local/Temp/_gbsbuild/obj/TopDown.o
-		NAME C__Users_ahria_AppData_Local_TemôKÙôKÙı%Ño´°zç­“zW´èzW´èzıR¦ñš×
+		NAME C__Users_ahria_AppData_Local_Temmğämğädìö²G„kÇGÎ²SGÎ²SGdé›•ye
 LIBRARIES
 	LIBRARY C:\Users\ahria\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o
